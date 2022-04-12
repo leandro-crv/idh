@@ -1,0 +1,456 @@
+
+/*ESCONDER */
+.none{
+    display: none;
+}
+
+
+
+/*HEADER */
+
+header{
+    background-color: #BBBBBB;
+    padding: 10px 0;
+}
+
+.headerBox h1,p{
+    text-align: center;
+}
+
+.headerBox ul{
+   vertical-align: top;
+    
+
+    padding-right: 5%;
+    padding-left: 60%;
+    
+}
+
+.headerBox ul li{
+  display: inline-block;
+  width: 30%;
+  margin: auto 0px;
+  
+  
+    
+}
+
+.headerBox button{
+    border-radius: 10px;
+}
+
+
+
+
+/*------------------- PRINCIPAl----------------------*/
+
+.principal{
+    background-color:lightgray;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/*COMO JOGAR */
+
+.cj{
+    position: absolute;
+    display: inline-block;
+    margin:20px 10% 20px 10%;
+    
+    text-align: center;
+    width: 80%;
+    max-height: max-content;
+    background-color: silver;
+    border:thick gray solid;
+    border-radius: 10px;
+}
+
+.cj .titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin:10px auto;
+}
+
+.cj .cjLista{
+    display: inline-flex;
+    
+}
+
+.cj .liNavegar{
+    width:10%;
+}
+
+.cjFechar{
+    width: 2rem;
+    margin-left: 90%;
+    margin-top: 10px
+}
+.cj .liImg{
+    border: medium solid black;
+    border-radius: 10px;
+    padding:10px auto;
+    text-align: center;
+    
+}
+
+.liNavegar{
+    display: contents;
+    
+    text-align: center;
+    
+}
+.imgNavegar{
+    width:3rem
+}
+
+.cj .cjImg{
+    display:inline-block;
+    width: 90%; 
+}
+
+.cjExplicacao{
+    padding:10px;
+}
+
+#img0{
+    height: 400px;
+}
+
+/*FONTES */
+.fontes{
+    position: absolute;
+    width: 40%;
+    margin-left:55%;
+    background-color: silver;
+    border: thick solid gray;
+    border-radius:10px;
+}
+
+.fontes .fontesFechar{
+    width:2rem;
+    margin-left:90%
+}
+
+.fontes li{
+    border-bottom: thin dotted gray;
+}
+
+.fontes .fontesTitulo{
+    font-weight: bold;
+}
+
+/* BANDEIRAS */
+
+.cb{
+    margin: 10px;
+    border-bottom: solid medium gray;
+    
+  }
+  .bandeirasDisponiveis{
+      
+      padding-left:10px;
+      
+  }
+  .bandeirasAlfabetica{
+      font-size:0.8rem;
+      
+  }
+  .cb ul li {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top;
+   
+  }
+  
+  .cinza{
+    opacity: 0.3;
+  }
+  .nomeBandeira{
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: center;
+    max-width: 4rem;
+  }
+  
+  .imgBand{
+    width: 4rem;
+  }
+  
+  /*informações */
+
+  .pop{
+    background-color: khaki;
+    width: 25rem;
+    border: gray thin solid;
+    position: fixed;
+    left:30%;
+    top:50%;
+    display: inline;
+    
+}
+
+.informacoes{
+    background-color: burlywood;
+    width:35rem;
+    border: gray thin solid;
+    border-radius: 20px;
+    position: fixed;
+    left:28%;
+    top:50%;
+}
+
+.informacoes .botaoFechar{
+    width:2rem;
+    margin-top:1px;
+    margin-right: 3px;
+}
+
+.informacoes li{
+   padding: 5px 3px 5px 10px
+    
+}
+
+.informacoes .rotulo{
+    font-weight: bold;
+}
+.infoTitulo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 5px auto;
+    
+}
+
+.botaoFechar{
+    position: absolute;
+    right:2px;
+    
+    
+    
+}
+
+.categoria{
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+.vencedor{
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.explicacao{
+    font-weight: initial;
+    margin-left: 5px;
+}
+
+/* mandanteJogarVisitante */
+
+
+#mandanteJogarVisitante{
+    margin:0 auto;
+}
+
+#mandanteJogarVisitante .liApp {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+}
+
+/*Placar */
+
+.placar h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.jogar select,button{
+    width:70%;
+    margin-top:5px;
+    
+}
+
+/*Card */
+
+.testeCard{
+    width:80%;
+    
+    margin:10px auto;
+    padding:10px 10px;
+    border:thick solid gray;
+    border-radius: 10px;
+    background-color: gainsboro;
+   
+}
+
+
+.teste{
+    opacity: 0.5;
+    
+    transition-duration: 3s;
+}
+
+.testeCard button{
+    font-weight: bold;
+    
+}
+.testeCard li{
+    margin-top: 10px;
+}
+.testeCard .infoTeste{
+    margin-left:15px;
+}
+.testeCard .imgBand{
+    
+    width: 100%;
+    max-height: 140px;
+    margin:auto auto;
+    text-align: center;
+    
+}
+
+.testeCard .liImg{
+    display: inline-block;
+    width:200px;
+    height: 140px;
+         
+}
+
+.testeCard .nomeDoPais{
+    font-weight: bold;
+    text-align: center;
+    font-size:22px;
+    padding: 10px;
+    background-color: rgba(138, 136, 131, 0.514);
+    
+}
+
+.categoriaDado{
+   text-align: left;
+}
+
+
+/*Jogar*/
+
+
+.jogar{
+    background-color: gainsboro;
+    border:unset thin gray;
+    justify-content: center;
+    text-align: center;
+    padding:10px
+}
+
+
+.resultadoJogada{
+    width: 70%;
+    font-size: 1.5rem;
+    background-color: lightsteelblue;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 5px auto;
+
+}
+
+.botaoIniciar{
+    margin-top: 10px;
+}
+
+.liQuaisCartas{
+    display: inline-block;
+    
+    text-align: left;
+}
+
+.inputQuaisCartas{
+   margin:3px
+}
+
+.liQuaisCartas input{
+    margin-left: 10px;
+}
+
+.labelEscolherCartas{
+    margin-top:10px;
+}
+
+
+
+#testeNumeroDeCartas{
+    width:40%
+}
+
+
+/*Placar */
+.testePlacar{
+    background-color: gainsboro;
+    border-bottom: solid medium gray;
+    padding-bottom: 10px;
+     
+   
+}
+
+.tituloPlacar{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.liPlacar{
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.numeroPlacar{
+    font-weight: 5rem;
+    padding: 10px;
+    font-weight: bold;
+    background-color: lightgray;
+    margin: 10px;
+   
+}
+
+.rodadaPlacar{
+    font-weight: 8px;
+    font-size: 0.8rem;
+    padding: 5px;
+    
+}
+
+
+/*CardMesa*/
+.cardMesa{
+    width: 5rem;
+    padding: 1rem;
+    background-color: gainsboro;
+    border:thick solid gray;
+    border-radius: 10px;
+}
+
+.imgBandVerso{
+    width: 100%;
+    height: 80%;
+    
+    
+}
+
+
+.listaCards li{
+    display: inline-block;
+    margin:5px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+

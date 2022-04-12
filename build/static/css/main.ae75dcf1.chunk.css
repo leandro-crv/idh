@@ -1,0 +1,421 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+} 
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.none {
+    display: none
+}
+
+header {
+    background-color: #bbb;
+    padding: 10px 0
+}
+
+.headerBox h1, p {
+    text-align: center
+}
+
+.headerBox ul {
+    vertical-align: top;
+    padding-right: 5%;
+    padding-left: 60%
+}
+
+.headerBox ul li {
+    display: inline-block;
+   
+    margin-left: 20px ;
+    
+}
+
+.headerBox button {
+    border-radius: 10px
+}
+
+.principal {
+    background-color: #d3d3d3;
+    margin: 0 auto;
+    padding: 10px 0
+}
+
+.cj {
+    position: absolute;
+    display: inline-block;
+    margin: 20px 10%;
+    text-align: center;
+    width: 80%;
+    max-height: -webkit-max-content;
+    max-height: max-content;
+    background-color: silver;
+    border: thick solid grey;
+    border-radius: 10px
+}
+
+.cj .titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px auto
+}
+
+.cj .cjLista {
+    display: -webkit-inline-flex;
+    display: inline-flex
+}
+
+.cj .liNavegar {
+    width: 10%
+}
+
+.cjFechar {
+    width: 2rem;
+    margin-left: 90%;
+    margin-top: 10px
+}
+
+.cj .liImg {
+    border: solid #000;
+    border-radius: 10px;
+    padding: 10px auto;
+    text-align: center
+}
+
+.liNavegar {
+    display: contents;
+    text-align: center
+}
+
+.imgNavegar {
+    width: 3rem
+}
+
+.cj .cjImg {
+    display: inline-block;
+    width: 90%
+}
+
+.cjExplicacao {
+    padding: 10px
+}
+
+#img0 {
+    height: 400px
+}
+
+.fontes {
+    position: absolute;
+    width: 40%;
+    margin-left: 55%;
+    background-color: silver;
+    border: thick solid grey;
+    border-radius: 10px
+}
+
+.fontes .fontesFechar {
+    width: 2rem;
+    margin-left: 90%
+}
+
+.fontes li {
+    border-bottom: thin dotted grey
+}
+
+.fontes .fontesTitulo {
+    font-weight: 700
+}
+
+.cb {
+    margin: 10px;
+    border-bottom: solid grey
+}
+
+.bandeirasDisponiveis {
+    padding-left: 10px
+}
+
+.bandeirasAlfabetica {
+    font-size: .8rem
+}
+
+.cb ul li {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top
+}
+
+.cinza {
+    opacity: .3
+}
+
+.nomeBandeira {
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: center;
+    max-width: 4rem
+}
+
+.imgBand {
+    width: 4rem
+}
+
+.pop {
+    background-color: khaki;
+    width: 25rem;
+    left: 30%;
+    display: inline
+}
+
+.informacoes, .pop {
+    border: thin solid grey;
+    position: fixed;
+    top: 50%
+}
+
+.informacoes {
+    background-color: #deb887;
+    width: 35rem;
+    border-radius: 20px;
+    left: 28%;
+    padding:10px;
+}
+
+.informacoes .botaoFechar {
+    width: 1.5rem;
+    margin-top: 1px;
+    margin-right: 3px
+}
+
+.informacoes li {
+    padding: 5px 3px 5px 6px;
+}
+
+.informacoes .rotulo, .infoTitulo {
+    font-weight: 700
+}
+
+.infoTitulo {
+    font-size: 1.4rem;
+    margin: 5px auto
+}
+
+.botaoFechar {
+    position: absolute;
+    right: 2px
+}
+
+.categoria {
+    font-weight: 700;
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+.vencedor {
+    text-decoration: underline;
+    margin-left: 5px
+}
+
+.explicacao {
+    font-weight: 400;
+    margin-left: 5px
+}
+
+#mandanteJogarVisitante {
+    margin: 0 auto
+}
+
+#mandanteJogarVisitante .liApp {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box
+}
+
+.placar h2 {
+    font-weight: 700;
+    font-size: 1.5rem
+}
+
+.jogar select {
+    width: 100%;
+    margin-top: 5px
+}
+.jogar button{
+    width:100%;
+}
+
+.jogar ul{
+    padding:2px;
+}
+
+.testeCard {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: thick solid grey;
+    border-radius: 10px;
+    background-color: #dcdcdc
+}
+
+.teste {
+    opacity: .5;
+    transition-duration: 3s
+}
+
+.testeCard button {
+    font-weight: 700
+}
+
+.testeCard li {
+    margin-top: 10px
+}
+
+.testeCard .infoTeste {
+    margin-left: 15px
+}
+
+.testeCard .imgBand {
+    width: 100%;
+    max-height: 140px;
+    margin: auto;
+    text-align: center
+}
+
+.testeCard .liImg {
+    display: inline-block;
+    width: 200px;
+    height: 140px
+}
+
+.testeCard .nomeDoPais {
+    font-weight: 700;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    background-color: rgba(138, 136, 131, .514)
+}
+
+.categoriaDado {
+    text-align: left
+}
+
+.jogar {
+    background-color: #dcdcdc;
+    border: thin grey;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px
+}
+
+.resultadoJogada {
+    width: 70%;
+    font-size: 1.5rem;
+    background-color: #b0c4de;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 5px auto
+}
+
+.botaoIniciar {
+    margin-top: 10px
+}
+
+
+
+.liQuaisCartas {
+    display: inline-block;
+    text-align: left
+}
+
+
+.inputQuaisCartas {
+    margin: 3px
+}
+
+.liQuaisCartas input {
+    margin-left: 10px
+}
+
+.labelEscolherCartas {
+    margin-top: 10px
+}
+
+#testeNumeroDeCartas {
+    width: 40%
+}
+
+.testePlacar {
+    background-color: #dcdcdc;
+    border-bottom: solid grey;
+    padding-bottom: 10px
+}
+
+.tituloPlacar {
+    font-weight: 700;
+    font-size: 1.5rem
+}
+
+.liPlacar {
+    display: inline-block;
+    margin-bottom: 10px
+}
+
+.numeroPlacar {
+    font-weight: 5rem;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #d3d3d3;
+    margin: 10px
+}
+
+.rodadaPlacar {
+    font-weight: 8px;
+    font-size: .8rem;
+    padding: 5px
+}
+
+.cardMesa {
+    width: 5rem;
+    padding: 1rem;
+    background-color: #dcdcdc;
+    border: thick solid grey;
+    border-radius: 10px
+}
+
+.imgBandVerso {
+    width: 100%;
+    height: 80%
+}
+
+.listaCards li {
+    display: inline-block;
+    margin: 5px;
+    padding-right: 4px;
+    padding-bottom: 2px
+}
+
+/*# sourceMappingURL=main.ae75dcf1.chunk.css.map */
